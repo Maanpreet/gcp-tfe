@@ -1,6 +1,6 @@
 module "lb-cert" {
   source  = "tfe.gcp.lookout.com/services/lb-cert/gcp"
-  version = "PUT VERSION HERE" #eg "0.0.2"
+  version = "0.0.3"
 
   # insert required variables here
   project_id        = "lke-pprd-image-factory-abcde"
